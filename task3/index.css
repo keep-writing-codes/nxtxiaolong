@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+
+div{
+    border: 1px solid #999;
+}
+.content{
+    width: auto;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    background-color: #eee;
+    clear: both;
+}
+.content p{
+    margin: 0px;
+}
+.content .left{
+    width: 200px;
+    margin: 20px;
+    position: relative;
+    float: left;
+    background-color: #fff;
+}
+
+.content .center{
+    position: absolute;
+    left: 240px;
+    right: 160px;
+    top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    word-wrap: break-word;
+}
+
+.content .right{
+    background-color: #dfb;
+    float: right;
+    right: 20px;
+    width: 120px;
+    padding: 10px 0px;
+    margin: 20px;
+}
+
+.content .left .icon{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.content .right .icon{
+    width: 80px;
+    height: 80px;
+    padding: 10px 20px;
+}
+.content .left .name{
+    border: none;
+    float: left;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
