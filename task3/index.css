@@ -18,30 +18,27 @@ div{
     margin: 0px;
 }
 .content .left{
-    width: 200px;
-    margin: 20px;
     position: relative;
+    width: 200px;
     float: left;
     background-color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .content .center{
-    position: absolute;
-    left: 240px;
-    right: 160px;
-    top: 20px;
+    position: relative;
     padding: 20px;
     background-color: #fff;
     word-wrap: break-word;
+    margin: 20px 160px 20px 240px;
 }
 
 .content .right{
     background-color: #dfb;
     float: right;
-    right: 20px;
     width: 120px;
-    padding: 10px 0px;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
 }
 
 .content .left .icon{
